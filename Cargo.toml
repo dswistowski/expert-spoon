@@ -1,0 +1,15 @@
+[package]
+name = "expert-spoon"
+version = "0.1.0"
+edition = "2021"
+
+description = "Background application to link global shortcuts with commands"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+global-hotkey = "0.2.3"
+home = "0.5.5"
+image = "0.24.6"
+serde = { version = "1.0.183", features = ["derive"] }
+serde_yaml = "0.9.25"
+tao = { version =  "0.21.1", features = ["tray"]}
